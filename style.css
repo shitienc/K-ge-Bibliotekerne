@@ -3,6 +3,28 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.btn-position{
+    position: sticky;
+    left: 100%;
+    top: 20%;
+}
+
+.btn-scroll{
+    position: absolute;
+    left: 95%;
+}
+
+.btn-position .fa{
+    padding: 10px 15px;
+    background-color: #79BA00;
+    border-radius: 100%;
+    font-size: 30px;
+}
+
 /* STYLLING TIL NAVIGATIONSBAREN */
 
 header{
@@ -168,7 +190,6 @@ p{
 h1{
     font-size: 40px;
     font-family: 'Open Sans',sans-serif;
-    padding-bottom: 15px;
     padding-top: 15px;
 }
 
