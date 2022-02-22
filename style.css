@@ -138,7 +138,16 @@ ul li:hover::after{
     margin-right: 40px;
 }
 
-/* STYLLING TIL SECTION */
+.fa{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+/* STYLLING TIL SECTION "Køge bibliotek" */
 
 section{
     margin: 25px 50px;
@@ -159,6 +168,8 @@ p{
 h1{
     font-size: 40px;
     font-family: 'Open Sans',sans-serif;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 h2{
@@ -260,7 +271,39 @@ h2{
     padding: 20px 20px;
 }
 
+/*STYLING TIL SECTION "Herfølge bibliotek" */
 
+hr{
+    background-color: #79BA00;
+}
+
+.text-content7{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: #eaeaea;
+    margin: 20px 20px 20px 0px;
+    display: flex;
+}
+
+.text-content7 div{
+    padding: 20px 20px;
+}
+
+.text-content8{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: #eaeaea;
+    margin: 20px 20px 20px 0px;
+    display: flex;
+}
+
+.text-content8 div{
+    padding: 20px 20px;
+}
 /* STYLING TIL FOOTER */
 
 
