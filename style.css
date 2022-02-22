@@ -138,6 +138,132 @@ ul li:hover::after{
     margin-right: 40px;
 }
 
+/* STYLLING TIL SECTION */
+
+section{
+    margin: 25px 50px;
+}
+
+.intro h1{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #79BA00;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    padding-top: 15px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+h2{
+    color: #79BA00;
+}
+
+.text-box{
+    font-family: 'Open Sans', serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.text-box img{
+    width: 300px;
+}
+
+.text-content1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: #eaeaea;
+    margin: 20px 20px 20px 0px;
+    display: flex;
+}
+
+.text-content1 div{
+    padding: 20px 20px;
+}
+
+.text-content2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: #eaeaea;
+    margin: 20px 20px 20px 0px;
+    display: flex;
+}
+
+.text-content2 div{
+    padding: 20px 20px;
+}
+
+.text-content3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #eaeaea;
+    margin: 20px 20px 20px 0px;
+    display: flex;
+}
+
+.text-content3 div{
+    padding: 20px 20px;
+}
+
+.text-content4{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #eaeaea;
+    margin: 20px 20px 20px 0px;
+    display: flex;
+}
+
+.text-content4 div{
+    padding: 20px 20px;
+}
+
+.text-content5{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: #eaeaea;
+    margin: 20px 20px 20px 0px;
+    display: flex;
+}
+
+.text-content5 div{
+    padding: 20px 20px;
+}
+
+.text-content6{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: #eaeaea;
+    margin: 20px 20px 20px 0px;
+    display: flex;
+}
+
+.text-content6 div{
+    padding: 20px 20px;
+}
+
+
+/* STYLING TIL FOOTER */
+
+
 footer{
     background-color: black;
     color: white;
